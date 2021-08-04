@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import MarkdownEditor from '@/components/MarkdownEditor'
+// import MarkdownEditor from '@/components/MarkdownEditor'
 
 const content = `
 **This is test**
@@ -62,7 +62,7 @@ const content = `
 `
 export default {
   name: 'MarkdownDemo',
-  components: { MarkdownEditor },
+  // components: { MarkdownEditor },
   data() {
     return {
       content1: content,
